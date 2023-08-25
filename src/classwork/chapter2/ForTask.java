@@ -9,5 +9,10 @@ public class ForTask {
             System.out.println();
         }
 
+        for (int i = 0; i < 6; i++) {
+            System.out.println(" " + "******");
+        }
+
+
     }
 }
