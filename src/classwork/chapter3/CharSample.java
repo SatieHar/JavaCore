@@ -13,7 +13,6 @@ public class CharSample {
         System.out.println(ch1 + ch2);
 
         char a = '%';
-        char b = '*';
-        System.out.println(" a and b are: " + a + b );
+                System.out.println(" a and b are: " + a );
     }
     }
