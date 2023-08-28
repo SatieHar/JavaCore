@@ -7,24 +7,23 @@ public class IfSample {
         x = 10;
         y = 20;
 
-        if (x < y) {
+        if (x < y)
             System.out.println("x is less than y");
-        }
+
         x = x * 2;
-        if (x == y) {
+        if (x == y)
             System.out.println("x now equal to y");
-        }
+
         x = x * 2;
-        if (x > y) {
+        if (x > y)
             System.out.println("x now greater than y");
-        }
-        if (num < 100) {
+
+        if (num < 100)
             System.out.println("num is less than 100 ");
-        }
+
         x = 10;
         y = 20;
-        if (x < y) {
+        if (x < y)
             System.out.println(x + " is less than " + y);
-        }
-    }
+            }
 }
