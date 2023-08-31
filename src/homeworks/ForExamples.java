@@ -5,7 +5,6 @@ public class ForExamples {
         for (int i = 0; i < 1000; i++) {
             System.out.println(" - ");
             System.out.println(i + 1);
-
             }
         }
     }
