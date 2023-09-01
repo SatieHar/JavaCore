@@ -11,9 +11,10 @@ public class ForExamples {
         System.out.println();
 
         System.out.println(" TASK 2 ");
-        for ( int i = 1; i <100; i++)
-                if(i%2==0)
-            System.out.print(i + " ");
+        for ( int i = 1; i <100; i++) {
+            if (i % 2 == 0)
+                System.out.print(i + " ");
+        }
         System.out.println();
         System.out.println();
 
@@ -26,7 +27,6 @@ public class ForExamples {
             }
         }
         System.out.print(" The max value is: " + max);
-        System.out.println();
-        System.out.println();
-    }
+            }
+
     }
