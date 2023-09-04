@@ -4,9 +4,9 @@ public class ForExamples {
     public static void main(String[] args) {
         System.out.println(" TASK 1 ");
         for (int i = 0; i < 1000; i++) {
-            System.out.print(i+1);
-            if (i !=999){ // if i is not equal to 999 -> print "-"
-                System.out.print( " - ");
+            System.out.print(i + 1);
+            if (i != 999) { // if i is not equal to 999 -> print "-"
+                System.out.print(" - ");
             }
         }
         // another shorter example for the task 1
@@ -25,7 +25,7 @@ public class ForExamples {
         //            if (i % 2 == 0)
         //                System.out.print(i + " ");
 
-        for ( int i = 1; i <=100; i++) {
+        for (int i = 1; i <= 100; i++) {
             if (i % 2 == 0)
                 System.out.print(i + " ");
         }
@@ -33,13 +33,24 @@ public class ForExamples {
         System.out.println();
 
         System.out.println(" TASK 3 ");
+        // print the max value
         int[] array = {2, 5, 8, 4, 9, 3, 7};
-        int max = array [0]; // 0 (2) is matched as the first maximum
+        int max = array[0]; // 0 (2) is matched as the first maximum
         for (int i = 1; i < array.length; i++) { // as the 0 is 2, which is equal to max (2=2), we can start with the second one (1 - 5)
-            if (array [i] > max) {
-                max = array [i];
+            if (array[i] > max) {
+                max = array[i];
             }
         }
         System.out.print(" The max value is: " + max);
+        System.out.println();
+// print the min value
+        int min = array[0];
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] < min) {
+                min = array[i];
             }
+        }
+        System.out.print(" The min value is: " + min);
+
     }
+}

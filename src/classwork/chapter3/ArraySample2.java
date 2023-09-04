@@ -10,5 +10,4 @@ public class ArraySample2 {
             System.out.print(numbers[i] + " ");
         }
     }
-    //Another example (shorter)
 }
