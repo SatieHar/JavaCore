@@ -23,7 +23,7 @@ public class SwitchSample {
 
         // another example
         System.out.println();
-        String lang = "ARM";
+        String lang = "ENG";
         if (lang.equals("ARM")) { // ".equals" is the same as ==
             System.out.println(" Բարև ");
         } else if (lang.equals(" RU ")) {
