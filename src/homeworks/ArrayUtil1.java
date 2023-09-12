@@ -1,6 +1,6 @@
 package homeworks;
 
-public class ArrayUtil {
+public class ArrayUtil1 {
     public static void main(String[] args) {
         System.out.println("TASK 1");
         int[] numbers = {1, 6, 3, 9, 15, 52, -3, 5, 8};
