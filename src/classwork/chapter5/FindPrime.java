@@ -1,5 +1,5 @@
 package classwork.chapter5;
-public class FindPrimeSample {
+public class FindPrime {
     public static void main(String[] args) { //проверка на простые числа
 
         int num;

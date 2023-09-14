@@ -1,6 +1,6 @@
 package classwork.chapter5;
 
-public class StringSwitchSample {
+public class StringSwitch {
     public static void main(String[] args) {
         System.out.println();
         String str = "two";

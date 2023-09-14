@@ -1,6 +1,6 @@
 package classwork.chapter5;
 
-public class SwitchImprovedSample {
+public class SwitchImproved {
     public static void main(String[] args) {
         System.out.println();
         int month = 4; // for the output "April"
